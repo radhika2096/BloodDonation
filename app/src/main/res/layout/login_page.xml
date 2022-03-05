@@ -68,7 +68,7 @@
                 android:drawableLeft="@drawable/ic_password"
                 android:ems="50"
                 android:fontFamily="@font/roboto"
-                android:hint="Password:-"
+                android:hint="Password:"
                 android:inputType="textPassword"
                 android:padding="@dimen/_8sdp"
                 android:textColor="#0F0F10"
