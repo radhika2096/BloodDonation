@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EB9D5FF4"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_gravity="center"
+            android:id="@+id/toolbar6student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:background="@color/design_default_color_error"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme">
+
+
+            <TextView
+                android:id="@+id/Headlinestudent"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+
+                android:padding="@dimen/_10sdp"
+                android:text="PERSONAL DETAILS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView17student"
+                android:layout_width="100dp"
+                android:layout_height="114dp"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:layout_marginRight="@dimen/_2sdp"></ImageView>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/img1"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/_5sdp"
+            android:paddingRight="@dimen/_5sdp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"></Space>
+
+            <TextView
+                android:id="@+id/nameLabelstudent3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="none"
+                android:backgroundTint="#ECE4FB"
+                android:drawableLeft="@drawable/ic_baseline_account_box_24"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:hint="Date of BIrth:"
+                android:includeFontPadding="false"
+                android:inputType="textPersonName"
+                android:padding="@dimen/_10sdp"
+                android:shadowColor="#FBFBFB"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorHint="@color/black"
+                android:textColorLink="#FAF3F3"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/nameLabelstudent4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="none"
+                android:backgroundTint="#ECE4FB"
+                android:drawableLeft="@drawable/ic_baseline_account_box_24"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:hint="Profession:"
+                android:includeFontPadding="false"
+                android:inputType="textPersonName"
+                android:padding="@dimen/_10sdp"
+                android:shadowColor="#FBFBFB"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorHint="@color/black"
+                android:textColorLink="#FAF3F3"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/Emailadressdlabelstudent"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:backgroundTint="#ECE4FB"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawablePadding="5dp"
+                android:ems="20"
+                android:hint="Pincode:"
+                android:includeFontPadding="false"
+
+                android:inputType="textPersonName"
+                android:padding="@dimen/_10sdp"
+                android:shadowColor="#FBFBFB"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorHint="@color/black"
+                android:textColorLink="#FAF3F3"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/phonenumberLabelstudent"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:backgroundTint="#ECE4FB"
+                android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                android:drawablePadding="5dp"
+                android:ems="20"
+                android:hint="Last Blood Donation:"
+
+                android:includeFontPadding="false"
+                android:inputType="textPersonName"
+                android:padding="@dimen/_10sdp"
+                android:shadowColor="#FBFBFB"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorHint="@color/black"
+                android:textColorLink="#FAF3F3"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:backgroundTint="#ECE4FB"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+
+                android:drawablePadding="5dp"
+                android:ems="20"
+                android:hint="Last Platelets Donated:"
+                android:includeFontPadding="false"
+                android:inputType="textPersonName"
+                android:padding="@dimen/_10sdp"
+                android:shadowColor="#FBFBFB"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorHint="@color/black"
+                android:textColorLink="#FAF3F3"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/confirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:backgroundTint="#ECE4FB"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="5dp"
+                android:ems="20"
+                android:hint="Existing Disease:"
+                android:includeFontPadding="false"
+
+                android:inputType="textPersonName"
+                android:padding="@dimen/_10sdp"
+                android:shadowColor="#FBFBFB"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorHint="@color/black"
+                android:textColorLink="#FAF3F3"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+
+            <LinearLayout
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/outpassrequeststudent"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_marginBottom="72dp"
+                android:background="@drawable/inpuut_bg"
+                android:text="Next"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:backgroundTint="@color/design_default_color_error"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/phonenumberLabel"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
