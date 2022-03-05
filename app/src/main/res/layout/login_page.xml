@@ -47,9 +47,9 @@
             android:shadowColor="#FBFBFB"
             android:textColor="#0A0B0B"
             android:textColorHighlight="#090909"
-            android:textColorHint="#777575"
+            android:textColorHint="@color/black"
             android:textColorLink="#FAF3F3"
-            android:textStyle="normal" />
+            android:textStyle="normal|bold" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -71,7 +71,10 @@
                 android:hint="Password:-"
                 android:inputType="textPassword"
                 android:padding="@dimen/_8sdp"
-                android:textColor="#0F0F10" />
+                android:textColor="#0F0F10"
+                android:textColorHint="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
