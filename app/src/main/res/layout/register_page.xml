@@ -28,9 +28,10 @@
                 android:layout_height="wrap_content"
 
                 android:padding="@dimen/_10sdp"
-                android:text="REGISTRATION"
+                android:text="REGISTRATION DETAILS"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textColor="@color/white"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <ImageView
@@ -44,6 +45,7 @@
         </androidx.appcompat.widget.Toolbar>
 
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -52,25 +54,9 @@
             android:paddingLeft="@dimen/_5sdp"
             android:paddingRight="@dimen/_5sdp">
 
-            <TextView
-                android:id="@+id/cmeratext3student"
-                android:layout_width="138dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="@dimen/_5sdp"
-                android:fontFamily="@font/roboto"
-                android:padding="@dimen/_5sdp"
-                android:text="DETAILS"
-                android:textColor="@color/black"
-                android:textColorHighlight="@color/black"
-                android:textColorHint="@color/black"
-                android:textColorLink="@color/white"
-                android:textSize="28sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/Headline"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="@+id/Headline"
-                app:layout_constraintTop_toBottomOf="@+id/Headline" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="53dp"></Space>
 
             <TextView
                 android:id="@+id/nameLabelstudent"
