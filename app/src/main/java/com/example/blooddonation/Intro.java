@@ -16,7 +16,7 @@ public class Intro extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
-        chanImg=findViewById(R.id.imageView17student);
+        chanImg=findViewById(R.id.imageView);
         lottieAnimationView=findViewById(R.id.lottie_layer_name);
 
         chanImg.animate().translationY(-1600).setDuration(1000).setStartDelay(4000);
