@@ -10,15 +10,15 @@
     <LinearLayout
 
         android:layout_width="match_parent"
-        android:layout_height="1005dp"
+        android:layout_height="match_parent"
         android:background="@color/white"
         android:orientation="vertical">
 
 
         <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar6student"
+            android:id="@+id/toolbar2"
             android:layout_width="match_parent"
-            android:layout_height="140dp"
+            android:layout_height="110dp"
             android:layout_gravity="center"
             android:layout_marginBottom="6dp"
             android:background="@color/design_default_color_error"
@@ -33,13 +33,13 @@
 
                 android:padding="@dimen/_20sdp"
                 android:text="REGISTRATION DETAILS"
-                android:textSize="20sp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textColor="@color/white"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView17student"
+                android:id="@+id/imageView2"
                 android:layout_width="100dp"
                 android:layout_height="114dp"
                 android:layout_marginLeft="@dimen/_2sdp"
@@ -51,52 +51,20 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/img1"
+
             android:orientation="vertical"
             android:paddingLeft="@dimen/_5sdp"
             android:paddingRight="@dimen/_5sdp">
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="40dp">
+                android:layout_height="25dp">
 
             </Space>
 
-            <TextView
-                android:id="@+id/Headline"
-                android:layout_width="@dimen/_300sdp"
-                android:layout_height="wrap_content"
-
-                android:padding="@dimen/_10sdp"
-                android:text="Do you have any Allergy?"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textColor="@color/black"
-                android:textStyle="normal|bold" />
 
             <TextView
-                android:id="@+id/nameLabelstudent3"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_40sdp"
-                android:layout_margin="@dimen/_5sdp"
-                android:background="none"
-                android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_add_circle_24"
-                android:drawablePadding="5dp"
-                android:ems="10"
-                android:hint="If yes the what??"
-                android:includeFontPadding="false"
-                android:inputType="date"
-                android:padding="@dimen/_10sdp"
-                android:shadowColor="#FBFBFB"
-                android:textColor="@color/black"
-                android:textColorHighlight="@color/black"
-                android:textColorHint="@color/black"
-                android:textColorLink="#FAF3F3"
-                android:textSize="20sp"
-                android:textStyle="normal|bold" />
-
-            <TextView
-                android:id="@+id/Headline2"
+                android:id="@+id/Headline3"
                 android:layout_width="@dimen/_300sdp"
                 android:layout_height="wrap_content"
 
@@ -108,7 +76,7 @@
 
 
             <TextView
-                android:id="@+id/nameLabelstudent4"
+                android:id="@+id/yes2"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_margin="@dimen/_5sdp"
@@ -141,7 +109,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/Emailadressdlabelstudent"
+                android:id="@+id/yes4"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_margin="@dimen/_5sdp"
@@ -164,7 +132,7 @@
 
 
             <TextView
-                android:id="@+id/phonenumberLabelstudent"
+                android:id="@+id/pick"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_margin="@dimen/_5sdp"
@@ -186,7 +154,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/password"
+                android:id="@+id/Remarks"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_margin="@dimen/_5sdp"
@@ -196,6 +164,54 @@
                 android:drawablePadding="5dp"
                 android:ems="20"
                 android:hint=" Any other Special Remarks:"
+                android:includeFontPadding="false"
+                android:inputType="textPersonName"
+                android:padding="@dimen/_10sdp"
+                android:shadowColor="#FBFBFB"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorHint="@color/black"
+                android:textColorLink="#FAF3F3"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+
+            [22:44, 3/11/2022] Radhika Sanghai:
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="None"
+                android:backgroundTint="#ECE4FB"
+
+                android:drawableLeft="@drawable/ic_password"
+                android:drawablePadding="5dp"
+                android:ems="20"
+                android:hint="Password:"
+                android:includeFontPadding="false"
+                android:inputType="textPersonName"
+                android:padding="@dimen/_10sdp"
+                android:shadowColor="#FBFBFB"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorHint="@color/black"
+                android:textColorLink="#FAF3F3"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/ConfirmPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="None"
+                android:backgroundTint="#ECE4FB"
+                android:drawableLeft="@drawable/ic_password"
+                android:drawablePadding="5dp"
+                android:ems="20"
+                android:hint="Confirm Password:"
+
                 android:includeFontPadding="false"
                 android:inputType="textPersonName"
                 android:padding="@dimen/_10sdp"
@@ -218,14 +234,14 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/outpassrequeststudent"
+                android:id="@+id/next1"
                 android:layout_width="163dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="@dimen/_5sdp"
                 android:layout_marginBottom="72dp"
                 android:background="@drawable/inpuut_bg"
-                android:text="Next"
+                android:text="Sign In"
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"

@@ -9,11 +9,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#EB9D5FF4"
+
         android:orientation="vertical">
 
         <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar6student"
+            android:id="@+id/toolbar2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="6dp"
@@ -35,7 +35,7 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView17student"
+                android:id="@+id/imageView2"
                 android:layout_width="100dp"
                 android:layout_height="114dp"
                 android:layout_marginLeft="@dimen/_2sdp"
@@ -45,27 +45,26 @@
         </androidx.appcompat.widget.Toolbar>
 
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/bg123"
+
             android:orientation="vertical"
             android:paddingLeft="@dimen/_5sdp"
             android:paddingRight="@dimen/_5sdp">
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="53dp"></Space>
+                android:layout_height="30dp"></Space>
 
             <TextView
-                android:id="@+id/nameLabelstudent"
+                android:id="@+id/name1"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_40sdp"
+                android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_5sdp"
-                android:background="@drawable/inpuut_bg"
+                android:background="None"
                 android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_account_box_24"
+                android:drawableLeft="@drawable/ic_baseline_account_circle_24"
                 android:drawablePadding="5dp"
                 android:ems="10"
                 android:hint="Name:"
@@ -78,19 +77,19 @@
                 android:textColorHint="@color/black"
                 android:textColorLink="#FAF3F3"
                 android:textSize="20sp"
-                android:textStyle="normal|bold" />
+                android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/Emailadressdlabelstudent"
+                android:id="@+id/email1"
                 android:layout_width="wrap_content"
-                android:layout_height="@dimen/_40sdp"
+                android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_5sdp"
-                android:background="@drawable/inpuut_bg"
+                android:background="None"
                 android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawableLeft="@drawable/ic_login_email_24"
                 android:drawablePadding="5dp"
                 android:ems="20"
-                android:hint="Email Address:"
+                android:hint="Email :"
 
                 android:includeFontPadding="false"
                 android:inputType="textPersonName"
@@ -104,16 +103,16 @@
                 android:textStyle="normal|bold" />
 
             <TextView
-                android:id="@+id/phonenumberLabelstudent"
+                android:id="@+id/phone2"
                 android:layout_width="wrap_content"
-                android:layout_height="@dimen/_40sdp"
+                android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_5sdp"
-                android:background="@drawable/inpuut_bg"
+                android:background="None"
                 android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                android:drawableLeft="@drawable/ic_baseline_phone_24"
                 android:drawablePadding="5dp"
                 android:ems="20"
-                android:hint="Phone Number:"
+                android:hint="Phone No:"
 
                 android:includeFontPadding="false"
                 android:inputType="textPersonName"
@@ -126,45 +125,58 @@
                 android:textSize="20sp"
                 android:textStyle="normal|bold" />
 
+
             <TextView
-                android:id="@+id/phonenumberLabelstudent3"
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="None"
+                android:backgroundTint="#ECE4FB"
+                android:drawableLeft="@drawable/ic_baseline_supervisor_account_24"
+                android:drawablePadding="5dp"
+                android:ems="20"
+
+                android:includeFontPadding="false"
+                android:inputType="textPersonName"
+                android:padding="@dimen/_10sdp"
+                android:shadowColor="#FBFBFB"
+                android:text="Gender"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorHint="@color/black"
+                android:textColorLink="#FAF3F3"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+
+
+            <Spinner
+                android:id="@+id/spinner1"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_40sdp"
-                android:layout_margin="@dimen/_5sdp"
-                android:background="@drawable/inpuut_bg"
-                android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_group_24"
-                android:drawablePadding="5dp"
-                android:ems="20"
-                android:hint="Gender:"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:drawable/btn_dropdown"
 
-                android:includeFontPadding="false"
-                android:inputType="textPersonName"
-                android:padding="@dimen/_10sdp"
-                android:shadowColor="#FBFBFB"
-                android:textColor="@color/black"
-                android:textColorHighlight="@color/black"
-                android:textColorHint="@color/black"
-                android:textColorLink="#FAF3F3"
-                android:textSize="20sp"
-                android:textStyle="normal|bold" />
+
+                />
+
 
             <TextView
-                android:id="@+id/phonenumberLabelstudent2"
+                android:id="@+id/Blood1"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_40sdp"
+                android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_5sdp"
-                android:background="@drawable/inpuut_bg"
+                android:background="None"
                 android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_local_hospital_24"
+                android:drawableLeft="@drawable/ic_baseline_add_circle_24"
                 android:drawablePadding="5dp"
                 android:ems="20"
-                android:hint="RH Factor:"
 
                 android:includeFontPadding="false"
                 android:inputType="textPersonName"
                 android:padding="@dimen/_10sdp"
                 android:shadowColor="#FBFBFB"
+                android:text="Blood Group"
                 android:textColor="@color/black"
                 android:textColorHighlight="@color/black"
                 android:textColorHint="@color/black"
@@ -172,61 +184,28 @@
                 android:textSize="20sp"
                 android:textStyle="normal|bold" />
 
-            <TextView
-                android:id="@+id/password"
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/_40sdp"
-                android:layout_margin="@dimen/_5sdp"
-                android:background="@drawable/inpuut_bg"
-                android:backgroundTint="#ECE4FB"
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:drawable/btn_dropdown"
 
-                android:drawableLeft="@drawable/ic_baseline_lock_24"
-                android:drawablePadding="5dp"
-                android:ems="20"
-                android:hint="Password:"
-                android:includeFontPadding="false"
-                android:inputType="textPersonName"
-                android:padding="@dimen/_10sdp"
-                android:shadowColor="#FBFBFB"
-                android:textColor="@color/black"
-                android:textColorHighlight="@color/black"
-                android:textColorHint="@color/black"
-                android:textColorLink="#FAF3F3"
-                android:textSize="20sp"
-                android:textStyle="normal|bold" />
 
-            <TextView
-                android:id="@+id/ConfirmPassword"
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/_40sdp"
-                android:layout_margin="@dimen/_5sdp"
-                android:background="@drawable/inpuut_bg"
-                android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_lock_24"
-                android:drawablePadding="5dp"
-                android:ems="20"
-                android:hint="Confirm Password:"
+                />
 
-                android:includeFontPadding="false"
-                android:inputType="textPersonName"
-                android:padding="@dimen/_10sdp"
-                android:shadowColor="#FBFBFB"
-                android:textColor="@color/black"
-                android:textColorHighlight="@color/black"
-                android:textColorHint="@color/black"
-                android:textColorLink="#FAF3F3"
-                android:textSize="20sp"
-                android:textStyle="normal|bold" />
+
+
 
             <Button
-                android:id="@+id/outpassrequeststudent"
+                android:id="@+id/next1"
                 android:layout_width="183dp"
                 android:layout_height="58dp"
                 android:layout_gravity="center"
                 android:layout_margin="@dimen/_5sdp"
                 android:layout_marginBottom="72dp"
                 android:background="@drawable/inpuut_bg"
-                android:text="Sign In"
+                android:text="Next"
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"
