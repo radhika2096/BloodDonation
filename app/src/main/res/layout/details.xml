@@ -18,7 +18,7 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar6student"
             android:layout_width="match_parent"
-            android:layout_height="140dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="6dp"
             android:background="@color/design_default_color_error"
@@ -33,9 +33,9 @@
 
                 android:padding="@dimen/_20sdp"
                 android:text="REGISTRATION DETAILS"
-                android:textSize="20sp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textColor="@color/white"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <ImageView
@@ -58,7 +58,7 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="40dp">
+                android:layout_height="65dp">
 
             </Space>
 
@@ -67,7 +67,7 @@
                 android:layout_width="@dimen/_300sdp"
                 android:layout_height="wrap_content"
 
-                android:padding="@dimen/_10sdp"
+                android:padding="@dimen/_15sdp"
                 android:text="Do you have any Allergy?"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textColor="@color/black"
@@ -75,18 +75,16 @@
 
             <TextView
                 android:id="@+id/nameLabelstudent3"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_40sdp"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_5sdp"
-                android:background="none"
                 android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_add_circle_24"
                 android:drawablePadding="5dp"
                 android:ems="10"
                 android:hint="If yes the what??"
                 android:includeFontPadding="false"
                 android:inputType="date"
-                android:padding="@dimen/_10sdp"
+                android:padding="@dimen/_15sdp"
                 android:shadowColor="#FBFBFB"
                 android:textColor="@color/black"
                 android:textColorHighlight="@color/black"
@@ -100,7 +98,7 @@
                 android:layout_width="@dimen/_300sdp"
                 android:layout_height="wrap_content"
 
-                android:padding="@dimen/_10sdp"
+                android:padding="@dimen/_15sdp"
                 android:text="Any existing disease?"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textColor="@color/black"
@@ -109,18 +107,16 @@
 
             <TextView
                 android:id="@+id/nameLabelstudent4"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_40sdp"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_5sdp"
-                android:background="none"
                 android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_add_circle_24"
                 android:drawablePadding="5dp"
                 android:ems="10"
                 android:hint="If yes the mention."
                 android:includeFontPadding="false"
                 android:inputType="textPersonName"
-                android:padding="@dimen/_10sdp"
+                android:padding="@dimen/_15sdp"
                 android:shadowColor="#FBFBFB"
                 android:textColor="@color/black"
                 android:textColorHighlight="@color/black"
@@ -140,33 +136,11 @@
                 android:textColor="@color/black"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/Emailadressdlabelstudent"
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/_40sdp"
-                android:layout_margin="@dimen/_5sdp"
-                android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_add_circle_24"
-                android:drawablePadding="5dp"
-                android:ems="20"
-                android:hint="If Yes what medications taken?"
-                android:includeFontPadding="false"
-
-                android:inputType="number|textPersonName"
-                android:padding="@dimen/_10sdp"
-                android:shadowColor="#FBFBFB"
-                android:textColor="@color/black"
-                android:textColorHighlight="@color/black"
-                android:textColorHint="@color/black"
-                android:textColorLink="#FAF3F3"
-                android:textSize="20sp"
-                android:textStyle="normal|bold" />
-
 
             <TextView
                 android:id="@+id/phonenumberLabelstudent"
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/_40sdp"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_5sdp"
                 android:backgroundTint="#ECE4FB"
                 android:drawableLeft="@drawable/ic_baseline_add_location_24"
@@ -176,7 +150,7 @@
 
                 android:includeFontPadding="false"
                 android:inputType="textPersonName"
-                android:padding="@dimen/_10sdp"
+                android:padding="@dimen/_15sdp"
                 android:shadowColor="#FBFBFB"
                 android:textColor="@color/black"
                 android:textColorHighlight="@color/black"
@@ -185,10 +159,11 @@
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
+
             <TextView
                 android:id="@+id/password"
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/_40sdp"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_5sdp"
                 android:backgroundTint="#ECE4FB"
                 android:drawableLeft="@drawable/ic_baseline_message_24"
@@ -198,7 +173,7 @@
                 android:hint=" Any other Special Remarks:"
                 android:includeFontPadding="false"
                 android:inputType="textPersonName"
-                android:padding="@dimen/_10sdp"
+                android:padding="@dimen/_15sdp"
                 android:shadowColor="#FBFBFB"
                 android:textColor="@color/black"
                 android:textColorHighlight="@color/black"
@@ -207,6 +182,27 @@
                 android:textSize="20sp"
                 android:textStyle="normal|bold" />
 
+            <TextView
+                android:id="@+id/Emailadressdlabelstudent"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:backgroundTint="#ECE4FB"
+                android:drawableLeft="@drawable/ic_baseline_add_circle_24"
+                android:drawablePadding="5dp"
+                android:ems="20"
+                android:hint="If Yes what medications taken?"
+                android:includeFontPadding="false"
+
+                android:inputType="number|textPersonName"
+                android:padding="@dimen/_15sdp"
+                android:shadowColor="#FBFBFB"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorHint="@color/black"
+                android:textColorLink="#FAF3F3"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
 
             <LinearLayout
                 android:layout_width="196dp"

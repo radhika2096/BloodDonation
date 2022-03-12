@@ -56,7 +56,7 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="53dp"></Space>
+                android:layout_height="30dp"></Space>
 
             <TextView
                 android:id="@+id/nameLabelstudent"
@@ -126,17 +126,18 @@
                 android:textSize="20sp"
                 android:textStyle="normal|bold" />
 
+
             <TextView
-                android:id="@+id/phonenumberLabelstudent3"
-                android:layout_width="match_parent"
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_margin="@dimen/_5sdp"
-                android:background="@drawable/inpuut_bg"
+                android:background="None"
                 android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_group_24"
+                android:drawableLeft="@drawable/ic_baseline_local_phone_24"
                 android:drawablePadding="5dp"
                 android:ems="20"
-                android:hint="Gender:"
+                android:hint="Gender"
 
                 android:includeFontPadding="false"
                 android:inputType="textPersonName"
@@ -149,6 +150,16 @@
                 android:textSize="20sp"
                 android:textStyle="normal|bold" />
 
+
+            <Spinner
+                android:id="@+id/Gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:textAlignment="center"
+                android:textDirection="inherit" />
+
             <TextView
                 android:id="@+id/phonenumberLabelstudent2"
                 android:layout_width="match_parent"
@@ -159,7 +170,7 @@
                 android:drawableLeft="@drawable/ic_baseline_local_hospital_24"
                 android:drawablePadding="5dp"
                 android:ems="20"
-                android:hint="RH Factor:"
+                android:hint="Blood Group:"
 
                 android:includeFontPadding="false"
                 android:inputType="textPersonName"
