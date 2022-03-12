@@ -53,11 +53,15 @@
         app:lottie_rawRes="@raw/chan" />
 
     <TextView
-        android:layout_width="239dp"
+        android:layout_width="248dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="60sp"
         android:fontFamily="sans-serif-condensed-medium"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
         android:text="RAKTHCHARITRA"
         android:textColor="@color/black"
         android:textSize="30dp"
