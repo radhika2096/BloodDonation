@@ -11,7 +11,7 @@
 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#EB9D5FF4"
+
         android:orientation="vertical">
 
         <androidx.appcompat.widget.Toolbar
@@ -50,7 +50,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/img1"
+
             android:orientation="vertical"
             android:paddingLeft="@dimen/_5sdp"
             android:paddingRight="@dimen/_5sdp">
@@ -66,7 +66,7 @@
                 android:layout_margin="@dimen/_5sdp"
                 android:background="none"
                 android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_account_box_24"
+                android:drawableLeft="@drawable/ic_baseline_date_range_24"
                 android:drawablePadding="5dp"
                 android:ems="10"
                 android:hint="Date of BIrth:"
@@ -88,7 +88,7 @@
                 android:layout_margin="@dimen/_5sdp"
                 android:background="none"
                 android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_account_box_24"
+                android:drawableLeft="@drawable/ic_baseline_perm_identity_24"
                 android:drawablePadding="5dp"
                 android:ems="10"
                 android:hint="Profession:"
@@ -109,7 +109,7 @@
                 android:layout_height="@dimen/_40sdp"
                 android:layout_margin="@dimen/_5sdp"
                 android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawableLeft="@drawable/ic_baseline_add_location_24"
                 android:drawablePadding="5dp"
                 android:ems="20"
                 android:hint="Pincode:"
@@ -131,7 +131,7 @@
                 android:layout_height="@dimen/_40sdp"
                 android:layout_margin="@dimen/_5sdp"
                 android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                android:drawableLeft="@drawable/ic_baseline_add_circle_24"
                 android:drawablePadding="5dp"
                 android:ems="20"
                 android:hint="Last Blood Donation:"
@@ -153,7 +153,7 @@
                 android:layout_height="@dimen/_40sdp"
                 android:layout_margin="@dimen/_5sdp"
                 android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawableLeft="@drawable/ic_baseline_add_circle_24"
 
                 android:drawablePadding="5dp"
                 android:ems="20"
@@ -168,19 +168,30 @@
                 android:textColorLink="#FAF3F3"
                 android:textSize="20sp"
                 android:textStyle="normal|bold" />
+            <TextView
+                android:id="@+id/Headline3"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="wrap_content"
+
+                android:padding="@dimen/_10sdp"
+                android:text="Do You have any Allergy?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
 
             <TextView
-                android:id="@+id/confirmPassword"
+                android:id="@+id/yes2"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_margin="@dimen/_5sdp"
+                android:background="none"
                 android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawableLeft="@drawable/ic_baseline_add_circle_24"
                 android:drawablePadding="5dp"
-                android:ems="20"
-                android:hint="Existing Disease:"
+                android:ems="10"
+                android:hint="If Yes then Mention."
                 android:includeFontPadding="false"
-
                 android:inputType="textPersonName"
                 android:padding="@dimen/_10sdp"
                 android:shadowColor="#FBFBFB"
@@ -190,6 +201,7 @@
                 android:textColorLink="#FAF3F3"
                 android:textSize="20sp"
                 android:textStyle="normal|bold" />
+
 
             <LinearLayout
                 android:layout_width="196dp"
