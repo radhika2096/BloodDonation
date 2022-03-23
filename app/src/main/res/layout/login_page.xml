@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/img1"
+    android:background="@drawable/login"
     android:layout_height="match_parent">
 
     <LinearLayout
@@ -22,20 +22,20 @@
 
         <TextView
             android:id="@+id/cLogin3"
-            android:layout_width="wrap_content"
+            android:layout_width="117dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/_20sdp"
             android:fontFamily="@font/roboto"
             android:gravity="center"
-            android:text="Donor LogIn"
+            android:text="LOGIN"
             android:textColor="@color/black"
             android:textSize="30sp"
             android:textStyle="bold" />
 
         <EditText
             android:id="@+id/Cemail"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/_40sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_margin="@dimen/_5sdp"
             android:background="@drawable/textviewbg"
             android:backgroundTint="#F6F7FA"
@@ -45,12 +45,13 @@
             android:includeFontPadding="false"
             android:inputType="textPersonName"
             android:padding="@dimen/_10sdp"
+            android:paddingLeft="10dp"
             android:shadowColor="#FBFBFB"
-            android:textColor="#0A0B0B"
+            android:textColor="#000"
             android:textColorHighlight="#090909"
-            android:textColorHint="@color/black"
+            android:textColorHint="#000"
             android:textColorLink="#FAF3F3"
-            android:textStyle="normal|bold" />
+            android:textStyle="bold" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -63,7 +64,7 @@
             <EditText
                 android:id="@+id/cpassword2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="@drawable/textviewbg"
                 android:backgroundTint="#F4F4F6"
                 android:drawableLeft="@drawable/ic_password"
@@ -72,7 +73,7 @@
                 android:hint="Password:"
                 android:inputType="textPassword"
                 android:padding="@dimen/_8sdp"
-                android:textColor="#0F0F10"
+                android:textColor="@color/black"
                 android:textColorHint="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -119,29 +120,23 @@
             app:rippleColor="@color/teal_200" />
 
 
-        <ProgressBar
-            android:id="@+id/cprogressBar3"
-            style="?android:attr/progressBarStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/_5sdp"
-            android:visibility="invisible" />
+
 
         <TextView
             android:id="@+id/cregister2"
-            android:layout_width="wrap_content"
+            android:layout_width="188dp"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_5sdp"
             android:gravity="center"
 
             android:text="Don't have an Account?"
             android:textColor="@color/black"
-            android:textSize="16sp"
-            android:textStyle="normal" />
+            android:textSize="16.5sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/forgotPassword2"
-            android:layout_width="wrap_content"
+            android:layout_width="156dp"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_5sdp"
             android:gravity="center"
@@ -149,8 +144,8 @@
             android:text="Forgot Password?"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
-            android:textSize="14sp"
-            android:textStyle="normal" />
+            android:textSize="16sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </RelativeLayout>

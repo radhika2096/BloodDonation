@@ -12,14 +12,11 @@
 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
         android:orientation="vertical">
 
 
-
-
         <TextView
-            android:id="@+id/Headline"
+            android:id="@+id/Headlinestudentt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_90sdp"
@@ -33,11 +30,6 @@
             android:textStyle="bold" />
 
 
-
-
-
-
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -48,46 +40,24 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="37dp"></Space>
+                android:layout_height="41dp">
 
-
-
-            <TextView
-                android:id="@+id/nameLabelstudent4"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_40sdp"
-                android:layout_margin="@dimen/_5sdp"
-                android:background="@drawable/textviewbg"
-                android:backgroundTint="#fff"
-                android:drawableLeft="@drawable/ic_baseline_perm_identity_24"
-                android:drawablePadding="5dp"
-                android:ems="10"
-                android:hint="Profession:"
-                android:includeFontPadding="false"
-                android:inputType="textPersonName"
-                android:padding="@dimen/_10sdp"
-                android:shadowColor="#FBFBFB"
-                android:textColor="@color/black"
-                android:textColorHighlight="@color/black"
-                android:textColorHint="@color/black"
-                android:textColorLink="#FAF3F3"
-                android:textSize="20sp"
-                android:textStyle="normal|bold" />
+            </Space>
 
             <TextView
-                android:id="@+id/Emailadressdlabelstudent"
+                android:id="@+id/pick"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_margin="@dimen/_5sdp"
                 android:background="@drawable/textviewbg"
-                android:backgroundTint="#fff"
+                android:backgroundTint="#FFF"
                 android:drawableLeft="@drawable/ic_baseline_add_location_24"
                 android:drawablePadding="5dp"
-                android:ems="20"
-                android:hint="Pincode:"
 
+                android:ems="20"
+                android:hint="Pickup/Drop Required for Donation:"
                 android:includeFontPadding="false"
-                android:inputType="number|textPersonName"
+                android:inputType="textPersonName"
                 android:padding="@dimen/_10sdp"
                 android:shadowColor="#FBFBFB"
                 android:textColor="@color/black"
@@ -95,20 +65,20 @@
                 android:textColorHint="@color/black"
                 android:textColorLink="#FAF3F3"
                 android:textSize="20sp"
-                android:textStyle="normal|bold" />
+                android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/phonenumberLabelstudent"
+                android:id="@+id/Remarks"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_margin="@dimen/_5sdp"
                 android:background="@drawable/textviewbg"
-                android:backgroundTint="#fff"
-                android:drawableLeft="@drawable/ic_baseline_add_circle_24"
+                android:backgroundTint="#FFF"
+
+                android:drawableLeft="@drawable/ic_baseline_message_24"
                 android:drawablePadding="5dp"
                 android:ems="20"
-
-                android:hint="Last Blood Donation:"
+                android:hint=" Any other Special Remarks:"
                 android:includeFontPadding="false"
                 android:inputType="textPersonName"
                 android:padding="@dimen/_10sdp"
@@ -119,19 +89,21 @@
                 android:textColorLink="#FAF3F3"
                 android:textSize="20sp"
                 android:textStyle="normal|bold" />
+
+            [22:44, 3/11/2022] Radhika Sanghai:
 
             <TextView
                 android:id="@+id/password"
                 android:layout_width="wrap_content"
-                android:layout_height="@dimen/_40sdp"
+                android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_5sdp"
                 android:background="@drawable/textviewbg"
-                android:backgroundTint="#fff"
+                android:backgroundTint="#FFF"
 
-                android:drawableLeft="@drawable/ic_baseline_add_circle_24"
+                android:drawableLeft="@drawable/ic_password"
                 android:drawablePadding="5dp"
                 android:ems="20"
-                android:hint="Last Platelets Donated:"
+                android:hint="Password:"
                 android:includeFontPadding="false"
                 android:inputType="textPersonName"
                 android:padding="@dimen/_10sdp"
@@ -144,17 +116,17 @@
                 android:textStyle="normal|bold" />
 
             <TextView
-                android:id="@+id/password1"
+                android:id="@+id/ConfirmPassword"
                 android:layout_width="wrap_content"
-                android:layout_height="@dimen/_40sdp"
+                android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_5sdp"
                 android:background="@drawable/textviewbg"
-                android:backgroundTint="#fff"
-
-                android:drawableLeft="@drawable/ic_baseline_add_circle_24"
+                android:backgroundTint="#FFF"
+                android:drawableLeft="@drawable/ic_password"
                 android:drawablePadding="5dp"
                 android:ems="20"
-                android:hint="Any Smoking/Drinking Habbit?"
+                android:hint="Confirm Password:"
+
                 android:includeFontPadding="false"
                 android:inputType="textPersonName"
                 android:padding="@dimen/_10sdp"
@@ -177,14 +149,14 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/outpassrequeststudent"
-                android:layout_width="123dp"
+                android:id="@+id/next1"
+                android:layout_width="163dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="@dimen/_5sdp"
                 android:layout_marginBottom="72dp"
                 android:background="@drawable/inpuut_bg"
-                android:text="Next"
+                android:text="Sign In"
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"
@@ -200,3 +172,4 @@
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
+

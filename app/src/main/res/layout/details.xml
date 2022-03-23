@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back"
     >
 
 
@@ -11,42 +12,23 @@
 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/white"
         android:orientation="vertical">
 
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar2"
+        <TextView
+            android:id="@+id/Headlinestudentt"
             android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="6dp"
-            android:background="@color/design_default_color_error"
-            android:minHeight="?attr/actionBarSize"
-            android:theme="?attr/actionBarTheme">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_90sdp"
+            android:fontFamily="sans-serif-medium"
+            android:padding="@dimen/_10sdp"
+            android:text="REGISTRATION  DETAILS"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
-
-            <TextView
-                android:id="@+id/Headlinestudent"
-                android:layout_width="250dp"
-                android:layout_height="wrap_content"
-
-                android:padding="@dimen/_20sdp"
-                android:text="REGISTRATION DETAILS"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="100dp"
-                android:layout_height="114dp"
-                android:layout_marginLeft="@dimen/_2sdp"
-                android:layout_marginRight="@dimen/_2sdp"></ImageView>
-
-
-        </androidx.appcompat.widget.Toolbar>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -80,8 +62,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_margin="@dimen/_5sdp"
-                android:background="none"
-                android:backgroundTint="#ECE4FB"
+                android:background="@drawable/textviewbg"
+                android:backgroundTint="#fff"
                 android:drawableLeft="@drawable/ic_baseline_add_circle_24"
                 android:drawablePadding="5dp"
                 android:ems="10"
@@ -113,13 +95,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_margin="@dimen/_5sdp"
-                android:backgroundTint="#ECE4FB"
+                android:background="@drawable/textviewbg"
+                android:backgroundTint="#fff"
                 android:drawableLeft="@drawable/ic_baseline_add_circle_24"
                 android:drawablePadding="5dp"
                 android:ems="20"
                 android:hint="If Yes what medications taken?"
-                android:includeFontPadding="false"
 
+                android:includeFontPadding="false"
                 android:inputType="number|textPersonName"
                 android:padding="@dimen/_10sdp"
                 android:shadowColor="#FBFBFB"
@@ -130,40 +113,29 @@
                 android:textSize="20sp"
                 android:textStyle="normal|bold" />
 
-
             <TextView
-                android:id="@+id/pick"
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/_40sdp"
-                android:layout_margin="@dimen/_5sdp"
-                android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_add_location_24"
-                android:drawablePadding="5dp"
-                android:ems="20"
-                android:hint="Pickup/Drop Required for Donation:"
+                android:id="@+id/Headline5"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="wrap_content"
 
-                android:includeFontPadding="false"
-                android:inputType="textPersonName"
                 android:padding="@dimen/_10sdp"
-                android:shadowColor="#FBFBFB"
+                android:text="Do you have any Allergy?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textColor="@color/black"
-                android:textColorHighlight="@color/black"
-                android:textColorHint="@color/black"
-                android:textColorLink="#FAF3F3"
-                android:textSize="20sp"
                 android:textStyle="bold" />
 
+
             <TextView
-                android:id="@+id/Remarks"
-                android:layout_width="wrap_content"
+                android:id="@+id/yes5"
+                android:layout_width="match_parent"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_margin="@dimen/_5sdp"
-                android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_baseline_message_24"
-
+                android:background="@drawable/textviewbg"
+                android:backgroundTint="#fff"
+                android:drawableLeft="@drawable/ic_baseline_add_circle_24"
                 android:drawablePadding="5dp"
-                android:ems="20"
-                android:hint=" Any other Special Remarks:"
+                android:ems="10"
+                android:hint="If Yes then Mention."
                 android:includeFontPadding="false"
                 android:inputType="textPersonName"
                 android:padding="@dimen/_10sdp"
@@ -175,53 +147,7 @@
                 android:textSize="20sp"
                 android:textStyle="normal|bold" />
 
-            [22:44, 3/11/2022] Radhika Sanghai:
 
-            <TextView
-                android:id="@+id/password"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp"
-                android:background="None"
-                android:backgroundTint="#ECE4FB"
-
-                android:drawableLeft="@drawable/ic_password"
-                android:drawablePadding="5dp"
-                android:ems="20"
-                android:hint="Password:"
-                android:includeFontPadding="false"
-                android:inputType="textPersonName"
-                android:padding="@dimen/_10sdp"
-                android:shadowColor="#FBFBFB"
-                android:textColor="@color/black"
-                android:textColorHighlight="@color/black"
-                android:textColorHint="@color/black"
-                android:textColorLink="#FAF3F3"
-                android:textSize="20sp"
-                android:textStyle="normal|bold" />
-
-            <TextView
-                android:id="@+id/ConfirmPassword"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp"
-                android:background="None"
-                android:backgroundTint="#ECE4FB"
-                android:drawableLeft="@drawable/ic_password"
-                android:drawablePadding="5dp"
-                android:ems="20"
-                android:hint="Confirm Password:"
-
-                android:includeFontPadding="false"
-                android:inputType="textPersonName"
-                android:padding="@dimen/_10sdp"
-                android:shadowColor="#FBFBFB"
-                android:textColor="@color/black"
-                android:textColorHighlight="@color/black"
-                android:textColorHint="@color/black"
-                android:textColorLink="#FAF3F3"
-                android:textSize="20sp"
-                android:textStyle="normal|bold" />
 
 
             <LinearLayout
@@ -241,7 +167,7 @@
                 android:layout_margin="@dimen/_5sdp"
                 android:layout_marginBottom="72dp"
                 android:background="@drawable/inpuut_bg"
-                android:text="Sign In"
+                android:text="Next"
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"
