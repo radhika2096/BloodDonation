@@ -60,7 +60,7 @@
                 android:layout_height="wrap_content"></Space>
 
             <TextView
-                android:id="@+id/name1"
+                android:id="@+id/details"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_5sdp"
@@ -216,7 +216,7 @@
                 android:layout_height="12dp"></Space>
 
             <Button
-                android:id="@+id/next1"
+                android:id="@+id/sendmsg"
                 android:layout_width="166dp"
                 android:layout_height="58dp"
                 android:layout_gravity="center"

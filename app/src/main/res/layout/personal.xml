@@ -51,7 +51,6 @@
                 android:layout_height="37dp"></Space>
 
 
-
             <TextView
                 android:id="@+id/nameLabelstudent4"
                 android:layout_width="match_parent"
@@ -59,7 +58,7 @@
                 android:layout_margin="@dimen/_5sdp"
                 android:background="@drawable/textviewbg"
                 android:backgroundTint="#fff"
-                android:drawableLeft="@drawable/ic_baseline_perm_identity_24"
+                android:drawableLeft="@drawable/ic_baseline_account_circle_24"
                 android:drawablePadding="5dp"
                 android:ems="10"
                 android:hint="Profession:"

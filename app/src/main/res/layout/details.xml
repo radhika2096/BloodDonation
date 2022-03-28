@@ -160,7 +160,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/next1"
+                android:id="@+id/sendmsg"
                 android:layout_width="163dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

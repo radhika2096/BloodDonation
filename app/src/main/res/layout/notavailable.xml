@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/search">
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,16 +25,16 @@
                 android:layout_height="237dp"></Space>
 
             <TextView
-                android:id="@+id/details"
+                android:id="@+id/daterange"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_5sdp"
                 android:background="@drawable/inpuut_bg"
                 android:backgroundTint="#fff"
-                android:drawableLeft="@drawable/ic_baseline_add_circle_24"
+                android:drawableLeft="@drawable/ic_baseline_date_range_24"
                 android:drawablePadding="5dp"
                 android:ems="10"
-                android:hint="Blood Group:"
+                android:hint="Date Range:"
                 android:includeFontPadding="false"
                 android:inputType="textPersonName"
                 android:padding="@dimen/_10sdp"
@@ -48,16 +47,16 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/email1"
+                android:id="@+id/reason"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_5sdp"
                 android:background="@drawable/textviewbg"
                 android:backgroundTint="#fff"
-                android:drawableLeft="@drawable/ic_baseline_add_location_24"
+                android:drawableLeft="@drawable/ic_baseline_add_circle_24"
                 android:drawablePadding="5dp"
                 android:ems="20"
-                android:hint="Pincode :"
+                android:hint="Reasons:"
 
                 android:includeFontPadding="false"
                 android:inputType="textPersonName"
@@ -70,34 +69,30 @@
                 android:textSize="20sp"
                 android:textStyle="normal|bold" />
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="12dp"></Space>
-
-            <LinearLayout
-                android:layout_width="389dp"
-                android:layout_height="47dp"
+            <TextView
+                android:id="@+id/remark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
                 android:background="@drawable/textviewbg"
-                android:orientation="horizontal">
+                android:backgroundTint="#fff"
+                android:drawableLeft="@drawable/ic_baseline_add_circle_24"
+                android:drawablePadding="5dp"
+                android:ems="20"
+                android:hint="Remark:"
 
-                <TextView
-                    android:id="@+id/status"
-                    android:layout_width="71dp"
-                    android:layout_height="34dp"
-                    android:layout_margin="5.00dp"
-                    android:layout_weight="1"
-                    android:drawableLeft="@drawable/ic_baseline_add_circle_24"
-                    android:text=" Status:"
-                    android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                android:includeFontPadding="false"
+                android:inputType="textPersonName"
+                android:padding="@dimen/_10sdp"
+                android:shadowColor="#FBFBFB"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black"
+                android:textColorHint="@color/black"
+                android:textColorLink="#FAF3F3"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
 
-                <Spinner
-                    android:id="@+id/spinner5"
-                    android:layout_width="186dp"
-                    android:layout_height="35dp"
-                    android:layout_weight="1" />
-            </LinearLayout>
+
 
 
             <LinearLayout
@@ -114,9 +109,9 @@
                 android:layout_margin="@dimen/_5sdp"
                 android:layout_marginBottom="72dp"
                 android:background="@drawable/inpuut_bg"
-                android:text="Search"
+                android:text="Save"
                 android:textColor="@color/white"
-                android:textSize="16sp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 android:visibility="visible"
                 app:backgroundTint="@color/design_default_color_error" />
@@ -125,5 +120,4 @@
         </LinearLayout>
     </LinearLayout>
 
-
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
