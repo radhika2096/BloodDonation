@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">BloodDonation</string>
-    <string-array name="Gender">
-    <item>Male</item>
-    <item>Female</item>
-</string-array>
 
-    </resources>
+
+
+
+
+
+
+
+
+</resources>
