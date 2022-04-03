@@ -105,8 +105,9 @@
                 <TextView
                     android:id="@+id/status"
                     android:layout_width="71dp"
-                    android:layout_height="47dp"
+                    android:layout_height="wrap_content"
                     android:layout_margin="5.00dp"
+                    android:layout_marginTop="20dp"
                     android:layout_weight="1"
                     android:drawableLeft="@drawable/ic_baseline_add_circle_24"
                     android:text=" Status:"
@@ -117,7 +118,7 @@
                 <Spinner
                     android:id="@+id/spinner5"
                     android:layout_width="186dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="36dp"
                     android:layout_weight="1" />
             </LinearLayout>
 
@@ -144,7 +145,7 @@
                 app:backgroundTint="@color/design_default_color_error" />
 
             <LinearLayout
-                android:layout_width="287dp"
+                android:layout_width="144dp"
                 android:layout_height="65dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="90dp"
@@ -152,18 +153,20 @@
 
                 <Button
                     android:id="@+id/button2"
-                    android:layout_width="56dp"
-                    android:layout_height="65dp"
+                    android:layout_width="24dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/meet1"
+                    android:background="@drawable/team"
                     app:backgroundTint="none" />
 
                 <Button
                     android:id="@+id/button4"
-                    android:layout_width="35dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="16dp"
+                    android:layout_height="53dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
                     android:layout_weight="1"
-                    android:background="@drawable/meet"
+                    android:background="@drawable/faq1"
                     app:backgroundTint="none" />
             </LinearLayout>
 
