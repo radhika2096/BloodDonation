@@ -186,7 +186,7 @@
                     android:layout_width="110dp"
                     android:layout_height="25dp"
                     android:layout_weight="1"
-                    android:background="@color/textviewbg" />
+                    android:background="@color/white" />
             </LinearLayout>
 
             <LinearLayout
