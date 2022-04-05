@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/navhome12"
+            android:icon="@drawable/ic_baseline_add_circle_24"
+            android:title="Profile" />
+        <item
+            android:id="@+id/navhome21"
+            android:icon="@drawable/ic_baseline_group_24"
+            android:title="Our Team" />
+        <item
+            android:id="@+id/navhome13"
+            android:icon="@drawable/ic_baseline_question_answer_24"
+            android:title="FAQ" />
+        <item
+            android:id="@+id/navhome14"
+            android:icon="@drawable/ic_baseline_feedback_24"
+            android:title="Feedback" />
+        <item android:title="Communicate">
+
+            <menu>
+                <item
+                    android:id="@+id/navshare"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/navrate"
+                    android:icon="@drawable/ic_baseline_star_rate_24"
+                    android:title="RateUs" />
+            </menu>
+
+        </item>
+    </group>
+</menu>
