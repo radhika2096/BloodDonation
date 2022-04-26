@@ -36,13 +36,15 @@
                 android:textSize="26sp"
                 android:textStyle="bold" />
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/imageView2"
                 android:layout_width="109dp"
                 android:layout_height="107dp"
                 android:layout_marginLeft="@dimen/_2sdp"
                 android:layout_marginRight="@dimen/_2sdp"
-                android:background="@drawable/ic_baseline_perm_identity_24"></ImageView>
+                android:background="@drawable/fpro">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
 
         </LinearLayout>
 
@@ -156,18 +158,19 @@
 
             <LinearLayout
                 android:layout_width="389dp"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:background="@drawable/textviewbg"
                 android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="37dp"
-                    android:layout_height="34dp"
+                    android:layout_height="wrap_content"
                     android:layout_margin="5.00dp"
                     android:layout_weight="1"
                     android:background="@drawable/textviewbg"
                     android:drawableLeft="@drawable/ic_baseline_supervisor_account_24"
+                    android:paddingTop="5dp"
                     android:text=" Gender:"
                     android:textColor="@color/black"
                     android:textSize="20sp"
@@ -183,21 +186,22 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="12dp"></Space>
+                android:layout_height="11dp"></Space>
 
             <LinearLayout
                 android:layout_width="389dp"
-                android:layout_height="wrap_content"
+                android:layout_height="51dp"
                 android:background="@drawable/textviewbg"
                 android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/status"
                     android:layout_width="166dp"
-                    android:layout_height="34dp"
+                    android:layout_height="wrap_content"
                     android:layout_margin="5.00dp"
                     android:layout_weight="1"
                     android:drawableLeft="@drawable/ic_baseline_add_circle_24"
+                    android:paddingTop="5dp"
                     android:text=" Blood Group:"
                     android:textColor="@color/black"
                     android:textSize="20sp"
@@ -216,7 +220,7 @@
                 android:layout_height="12dp"></Space>
 
             <Button
-                android:id="@+id/sendmsg"
+                android:id="@+id/ssave"
                 android:layout_width="166dp"
                 android:layout_height="58dp"
                 android:layout_gravity="center"
