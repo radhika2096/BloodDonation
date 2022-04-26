@@ -42,7 +42,7 @@
                 android:layout_height="107dp"
                 android:layout_marginLeft="@dimen/_2sdp"
                 android:layout_marginRight="@dimen/_2sdp"
-                android:background="@drawable/fpro">
+                android:background="@drawable/ffpro">
 
             </de.hdodenhof.circleimageview.CircleImageView>
 
